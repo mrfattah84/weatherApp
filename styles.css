@@ -137,7 +137,7 @@ form button svg {
   background-color: #444444;
   border-radius: 30px;
   box-shadow: rgba(0, 0, 0, 50%) 5px 5px 5px;
-  padding: 10px 160px;
+  padding: 10px 120px;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -236,13 +236,13 @@ form button svg {
   margin-top: 10px;
 }
 
-.icon {
+.Section .icon {
   font-size: 180px;
   margin-top: 20px;
 }
 
 .iconDiscription {
-  font-size: 32px;
+  font-size: 20px;
   font-weight: 700;
 }
 
@@ -282,8 +282,9 @@ form button svg {
 
 .dayliCard {
   display: flex;
+  margin-left: 30px;
+  gap: 30px;
   width: 100%;
-  justify-content: space-between;
   align-items: center;
   margin-bottom: 4px;
 }
@@ -294,11 +295,11 @@ form button svg {
 }
 
 .fDate {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
 }
 
-.dayliCard .fIcon {
+.dayliCard .Icon {
   font-size: 35px;
 }
 
@@ -327,7 +328,7 @@ form button svg {
   font-weight: bold;
 }
 
-.hourlyCard .wi:not(.wi-celsius) {
+.hourlyCard .wi:not(.wi-celsius, .wi-fahrenheit) {
   font-size: 40px;
 }
 
